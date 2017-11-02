@@ -1,0 +1,64 @@
+	body {
+		text-align: center;
+		margin: 2 5% 2 5%;
+	}
+
+	div {
+		margin-top: 5;
+		margin-bottom: 5;
+	}
+	
+	.borders{
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	}
+	
+	 .header {
+	background-color: green; 
+    height: 50px;
+    width: auto;
+	display: block;
+  }
+	
+	.menu_n_image_holder {
+	border-color: grey;
+	border-style: double;
+	height: 100px;
+	float:left;
+	width:25%;
+	box-sizing: border-box;
+	}
+
+	.top_n_bot_holder {
+	border-color: grey;
+	border-style: double;
+	height: 100px;
+	float: left;
+	width: 75%;
+	box-sizing: border-box;
+  }
+	
+@media screen and (min-width: 300px)
+{
+  
+  .menu {
+    background-color: yellow;  
+    height: 360px;
+    width: 20%;
+    float: left;
+  }
+  
+  .topper {
+    background-color: red;  
+    height: 90px;
+    width: 20%;
+  }
+
+  .botter {
+    background-color: pink;  
+    height: 90px;
+    width: 20%;
+  }
+  
+}
